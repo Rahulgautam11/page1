@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  flex-wrap: nowrap;
+}
+.container {
+  background-color: blue;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.left {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex: 4;
+}
+.right {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex: 2;
+  gap: 40px;
+  color: antiquewhite;
+}
+.search {
+  width: 40vw;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+.button {
+  height: 40px;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.circle {
+  height: 40px;
+  width: 40px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  padding: 1px;
+  cursor: pointer;
+}
+.container2 {
+  background-color: antiquewhite;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.ge {
+  height: 40px;
+  width: 40px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+.left1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+
+  flex: 5;
+}
+.right1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.meet {
+  height: 30px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer{
+  text-align: center;
+  background-color: gray;
+  color: white;
+  margin: 0px;
+}
+
